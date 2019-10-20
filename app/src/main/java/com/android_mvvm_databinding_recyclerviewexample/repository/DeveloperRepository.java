@@ -27,10 +27,13 @@ public class DeveloperRepository {
     public DeveloperRepository() {
     }
 
+    ////call to internet and  retun  MutableLiveData
     public MutableLiveData<List<DeveloperModel>> getMutableLiveData() {
 
+        ///ini Retrofit Class
         final ApiDataService userDataService = RetrofitClient.getService();
 
+        ///call the API that define In Interface
         Call<JsonArray> call = userDataService.getApiRequestsArray();
 
         call.enqueue(new Callback<JsonArray>() {
@@ -39,7 +42,7 @@ public class DeveloperRepository {
             @Override
             public void onResponse(Call<JsonArray> call, Response<JsonArray> resp) {
 
-
+                /// parse the data if  Response successfully and store data in MutableLiveData  and retrun to DeveloperViewModel class
                 Gson gson = new GsonBuilder().create();
 
                 if (resp != null && resp.body() != null) {
