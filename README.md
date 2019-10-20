@@ -1,4 +1,4 @@
-# AndroidMVVMDataBindingRecyclerView
+# Android MVVM DataBinding RecyclerView Example
 
 implementation of RecyclerView with Jetpack using MVVM and Data-binding
 
