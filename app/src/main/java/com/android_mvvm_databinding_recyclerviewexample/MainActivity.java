@@ -13,9 +13,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android_mvvm_databinding_recyclerviewexample.CustomAdatper.Developer_CustomAdapter;
-import com.android_mvvm_databinding_recyclerviewexample.Model.DeveloperModel;
-import com.android_mvvm_databinding_recyclerviewexample.ViewModel.DeveloperViewModel;
 import com.android_mvvm_databinding_recyclerviewexample.databinding.ActivityMainBinding;
+import com.android_mvvm_databinding_recyclerviewexample.model.DeveloperModel;
+import com.android_mvvm_databinding_recyclerviewexample.viewmodel.DeveloperViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

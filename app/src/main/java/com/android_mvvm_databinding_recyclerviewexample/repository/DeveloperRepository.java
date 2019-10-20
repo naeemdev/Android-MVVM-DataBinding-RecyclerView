@@ -2,7 +2,7 @@ package com.android_mvvm_databinding_recyclerviewexample.repository;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.android_mvvm_databinding_recyclerviewexample.Model.DeveloperModel;
+import com.android_mvvm_databinding_recyclerviewexample.model.DeveloperModel;
 import com.android_mvvm_databinding_recyclerviewexample.network.ApiDataService;
 import com.android_mvvm_databinding_recyclerviewexample.network.RetrofitClient;
 import com.google.gson.Gson;

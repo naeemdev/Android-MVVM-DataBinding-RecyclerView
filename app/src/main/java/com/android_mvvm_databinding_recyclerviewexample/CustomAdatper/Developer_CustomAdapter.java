@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.android_mvvm_databinding_recyclerviewexample.Model.DeveloperModel;
 import com.android_mvvm_databinding_recyclerviewexample.R;
 import com.android_mvvm_databinding_recyclerviewexample.databinding.SingleListItemBinding;
+import com.android_mvvm_databinding_recyclerviewexample.model.DeveloperModel;
 
 import java.util.ArrayList;
 

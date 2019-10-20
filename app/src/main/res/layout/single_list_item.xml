@@ -8,7 +8,7 @@
 
         <variable
             name="developerModel"
-            type="com.android_mvvm_databinding_recyclerviewexample.Model.DeveloperModel" />
+            type="com.android_mvvm_databinding_recyclerviewexample.model.DeveloperModel" />
 
     </data>
 

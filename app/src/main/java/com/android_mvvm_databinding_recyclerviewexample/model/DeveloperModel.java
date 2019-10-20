@@ -1,4 +1,4 @@
-package com.android_mvvm_databinding_recyclerviewexample.Model;
+package com.android_mvvm_databinding_recyclerviewexample.model;
 
 import android.widget.ImageView;
 
